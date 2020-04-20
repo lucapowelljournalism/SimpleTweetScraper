@@ -15,7 +15,7 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth)
 
-#Now you are in Twitter's 'back-end'. You can ask for anything using the 'api' class. For example, to get one tweet you could do this: status = api.get_status(id). You are calling the 'get_status' function on the class 'api'. Full documentation is here: https://github.com/tweepy/tweepy
+#Now you are in Twitter's 'back-end'. You can ask for anything using the 'api' class. For example, to get one tweet you could do this: status = api.get_status(id). You are calling the 'get_status' function on the class 'api' and passing the parameter 'id'. Full documentation is here: https://github.com/tweepy/tweepy
 def scrape_tweets(user):
     rows=[]
     public_tweets = api.user_timeline(screen_name=user,tweet_mode='extended',count=120,include_rts=False,exclude_replies=True) #gets the timeline for a variable user
