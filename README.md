@@ -7,7 +7,7 @@ A simple scraper for getting tweets with timestamps from a given user.
   Twitter API Credentials
     - Unless you have these the API won't let you in. But rest assured, they are pretty easy to get. You can request a 'Developer Account' here: https://developer.twitter.com/en/docs/basics/developer-portal/overview. Usually they'll get back to you in about a week.
  
-#=============================================== Super Basic Scraping! ========================================
+================================== Super Basic Scraping! =================================
 
 ## Instructions
 
@@ -27,7 +27,7 @@ A simple scraper for getting tweets with timestamps from a given user.
 
 ####### If you do this to fast, or copy and paste extra symbols, the python might not run and give you an error. Try copy and pasting a couple times before you begin to debug. This happens to me often.
 
-#========================================= Next Level, Personalized Scraping!=================================
+================================ Personalized Scraping! =================================
 
 Once you've figured that out, you should play with the parameters in the code. You can change the code to get different tweets. For example, you can get more tweets if you change the 'count' parameter. And, you can include retweets if you set include_rts to 'true'. 
 
