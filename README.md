@@ -25,11 +25,11 @@ A simple scraper for getting tweets with timestamps from a given user.
 
 7. That's it. That's the scrape.
 
-### If you do this to fast, or copy and paste extra symbols, the python might not run and give you an error. Try copy and pasting a couple times before you begin to debug. This happens to me often.
+###### If you do this to fast, or copy and paste extra symbols, the python might not run and give you an error. Try copy and pasting a couple times before you begin to debug. This happens to me often.
 
 ================================ Personalized Scraping! =================================
 
-Once you've figured that out, you should play with the parameters in the code. You can change the code to get different tweets. For example, you can get more tweets if you change the 'count' parameter. And, you can include retweets if you set include_rts to 'true'. 
+Once you've scraped a few csvs, you should play with the parameters in the code. You can change the code to get different tweets. For example, you can get more tweets if you change the 'count' parameter. And, you can include retweets if you set include_rts to 'true'. 
 
 And you can change the way it writes to your csv, if you need those tweets in a different order.
 
